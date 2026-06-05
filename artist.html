@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Página de artista da Tracking Records com história e merchandising."
+    />
+    <title>Artista | Tracking Records</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand-mark" href="index.html#home" aria-label="Tracking Records - Home">
+        <img src="assets/Logo/Artboard 7.png" alt="Tracking Records" />
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" data-menu-toggle>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav" aria-label="Navegação principal" data-nav>
+        <a href="index.html#home">Home</a>
+        <a href="index.html#artistas">Artistas</a>
+        <a href="index.html#quem-somos">Quem Somos</a>
+        <a href="index.html#merchandising">Merchandising</a>
+        <a href="index.html#redes">Redes Sociais</a>
+      </nav>
+    </header>
+
+    <main class="artist-page">
+      <section class="artist-detail-hero section-dark">
+        <div class="artist-detail-copy reveal">
+          <a class="back-link" href="index.html#artistas">Voltar aos artistas</a>
+          <p class="eyebrow" data-artist-genre></p>
+          <h1 data-artist-name></h1>
+          <p class="artist-detail-bio" data-artist-bio></p>
+        </div>
+        <div class="artist-detail-visual reveal">
+          <img data-artist-image alt="" />
+        </div>
+      </section>
+
+      <section class="content-section artist-story-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">História</p>
+          <h2>A construção do artista.</h2>
+        </div>
+        <div class="artist-story" data-artist-story></div>
+      </section>
+
+      <section class="content-section artist-products-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Merchandising</p>
+          <h2>Produtos exclusivos do artista.</h2>
+        </div>
+        <div class="artist-products-grid" data-artist-products></div>
+      </section>
+    </main>
+
+    <script src="artist-data.js"></script>
+    <script src="artist-page.js"></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 120" role="img" aria-labelledby="title">
+  <title id="title">Tracking Records</title>
+  <rect width="360" height="120" fill="#050505"/>
+  <rect x="10" y="10" width="340" height="100" fill="none" stroke="#ffffff" stroke-width="5"/>
+  <rect x="24" y="24" width="312" height="72" fill="none" stroke="#e35336" stroke-width="3"/>
+  <text x="180" y="54" fill="#ffffff" font-family="Arial Black, Arial, sans-serif" font-size="33" font-weight="900" text-anchor="middle" letter-spacing="1">TRACKING</text>
+  <text x="180" y="86" fill="#e35336" font-family="Arial Black, Arial, sans-serif" font-size="30" font-weight="900" text-anchor="middle" letter-spacing="1">RECORDS</text>
+  <circle cx="250" cy="76" r="16" fill="none" stroke="#ffffff" stroke-width="4"/>
+  <circle cx="250" cy="76" r="5" fill="#ffffff"/>
+</svg>
