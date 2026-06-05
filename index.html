@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Website fictício premium da Tracking Records, gravadora musical focada em artistas emergentes de Hip-Hop, Pop, Techno e EDM."
+    />
+    <title>Tracking Records | Gravadora Musical</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand-mark" href="#home" aria-label="Tracking Records - Home">
+        <img src="assets/logo-tracking-records.svg" alt="Tracking Records" />
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" data-menu-toggle>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav" aria-label="Navegação principal" data-nav>
+        <a href="#home">Home</a>
+        <a href="#artistas">Artistas</a>
+        <a href="#quem-somos">Quem Somos</a>
+        <a href="#historia">História</a>
+        <a href="#fazemos">O Que Fazemos</a>
+        <a href="#oferecemos">O Que Oferecemos</a>
+        <a href="#missao-visao">Missão & Visão</a>
+        <a href="#valores">Valores</a>
+        <a href="#merchandising">Merchandising</a>
+        <a href="#redes">Redes Sociais</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-dark" id="home">
+        <div class="hero-content reveal">
+          <p class="eyebrow">Hip-Hop / Pop / Techno / EDM</p>
+          <h1>Tracking Records</h1>
+          <p class="hero-copy">
+            Liberdade criativa para a próxima geração da música.
+          </p>
+          <div class="button-row">
+            <a class="button button-primary" href="#quem-somos">Descobrir Mais</a>
+            <a class="button button-secondary" href="#artistas">Explorar Artistas</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-strip reveal" aria-label="Introducao">
+        <p>
+          Uma gravadora moderna para descobrir talentos emergentes, financiar ideias
+          culturais e transformar música independente em presença global.
+        </p>
+      </section>
+
+      <section class="content-section artists-section" id="artistas">
+        <div class="section-heading reveal artists-heading">
+          <p class="eyebrow">Artistas</p>
+          <h2>Vozes emergentes que dão forma ao som da casa.</h2>
+          <p>
+            Uma seleção editorial de talentos que cruzam hip-hop, pop, techno e EDM
+            com identidade própria e presença visual forte.
+          </p>
+        </div>
+        <div class="artist-grid" data-artists></div>
+        <div class="artist-actions reveal">
+          <button class="button button-primary more-button" type="button" data-merch-modal-open data-modal-kicker="Artistas">
+            Ver mais
+          </button>
+        </div>
+      </section>
+
+      <section class="content-section split-section" id="quem-somos">
+        <div class="section-copy about-copy reveal">
+          <p class="eyebrow">Quem Somos</p>
+          <h2>Som cru, direção clara e espaço para artistas autênticos.</h2>
+          <p>
+            Somos uma gravadora criada para dar liberdade criativa e lançar artistas
+            autênticos de Hip-Hop, Pop, Techno e EDM. Para além de sermos uma
+            gravadora, atuamos também como produtora e financiadora de festivais
+            musicais, criando oportunidades reais para novos talentos se destacarem.
+          </p>
+        </div>
+        <div class="editorial-image reveal">
+          <img
+            src="assets/quem-somos-studio-vintage.png"
+            alt="Estudio vintage simples com microfone, mesa analogica e gravador de fita"
+          />
+        </div>
+      </section>
+
+      <section class="content-section section-dark" id="historia">
+        <div class="section-heading reveal">
+          <p class="eyebrow">História</p>
+          <h2>Uma trajetória criada para expandir fronteiras musicais.</h2>
+          <p>
+            A Tracking Records foi criada para dar liberdade criativa e lançar artistas
+            autênticos de Hip-Hop, Pop, Techno e EDM. Para além de ser uma gravadora,
+            a empresa também atua como produtora ou financiadora de alguns festivais
+            de música.
+          </p>
+        </div>
+
+        <div class="timeline reveal">
+          <article>
+            <span>01</span>
+            <h3>Origem independente</h3>
+            <p>
+              O projeto nasce para apoiar artistas com baixa influência e alto
+              potencial criativo.
+            </p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Estudio e financiamento</h3>
+            <p>
+              A marca passa a reunir equipamento, profissionais e recursos para
+              desenvolver novos lançamentos.
+            </p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Festivais e cultura</h3>
+            <p>
+              O percurso cresce através de eventos que ligam público, artistas e
+              novas cenas musicais.
+            </p>
+          </article>
+        </div>
+
+        <div class="festival-region reveal">
+          <div class="region-copy">
+            <p class="eyebrow">Festivais</p>
+            <h3>Portugal, Espanha e França como palcos de descoberta.</h3>
+          </div>
+          <div class="festival-grid" data-festivals></div>
+        </div>
+      </section>
+
+      <section class="content-section" id="fazemos">
+        <div class="section-heading reveal">
+          <p class="eyebrow">O Que Fazemos</p>
+          <h2>Da primeira demo ao palco principal.</h2>
+          <p>
+            Financiamos diretamente criadores de EDM, Hip-Hop, Pop e Techno para
+            impulsionar o seu sucesso. Oferecemos equipamentos de alta qualidade,
+            tratamento acústico profissional e tecnologias totalmente atualizadas.
+          </p>
+        </div>
+        <div class="service-grid" data-services></div>
+      </section>
+
+      <section class="content-section offer-section section-dark" id="oferecemos">
+        <div class="section-copy reveal">
+          <p class="eyebrow">O Que Oferecemos</p>
+          <h2>Uma estrutura criativa para artistas em crescimento.</h2>
+          <p>
+            Disponibilizamos serviços personalizados e o acompanhamento de profissionais
+            especializados num ambiente criativo, com atendimento direcionado para
+            responder a diferentes perfis de clientes.
+          </p>
+        </div>
+        <div class="offer-list reveal" data-offers></div>
+      </section>
+
+      <section class="content-section mission-section" id="missao-visao">
+        <article class="mission-panel reveal">
+          <p class="eyebrow">Missão</p>
+          <h2>Promover artistas antes de serem obvios.</h2>
+          <p>
+            A Tracking Records assume o compromisso de promover e ajudar artistas com
+            baixa influência no mundo da música. O nosso foco principal é impulsionar
+            estes novos talentos, garantindo-lhes total liberdade criativa para que se
+            possam lançar e revelar ao público.
+          </p>
+        </article>
+        <article class="mission-panel reveal">
+          <p class="eyebrow">Visao</p>
+          <h2>Crescer com impacto cultural global.</h2>
+          <p>
+            A nossa organização espera atingir uma influência global no panorama
+            artístico e cultural nos próximos anos. Através deste crescimento,
+            pretendemos apoiar e capacitar criadores de diversos quadrantes para que
+            se pronunciem e deixem a sua marca.
+          </p>
+        </article>
+      </section>
+
+      <section class="content-section" id="valores">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Valores</p>
+          <h2>Princípios simples, usados todos os dias.</h2>
+        </div>
+        <div class="value-grid" data-values></div>
+      </section>
+
+      <section class="content-section merch-section" id="merchandising">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Merchandising</p>
+          <h2>Peças fictícias com alma de editora musical.</h2>
+          <p>
+            Uma coleção conceptual para representar a identidade da Tracking Records.
+            Sem checkout funcional, apenas apresentação visual.
+          </p>
+        </div>
+        <div class="merch-grid" data-merch></div>
+        <div class="merch-actions reveal">
+          <button class="button button-primary more-button" type="button" data-merch-modal-open data-modal-kicker="Merchandising">
+            Ver mais
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-dark" id="redes">
+      <div class="footer-main">
+        <p class="footer-brand">Tracking Records</p>
+        <p>
+          Projeto académico de marketing para uma gravadora fictícia focada em
+          música, liberdade criativa e cultura emergente.
+        </p>
+      </div>
+      <div class="social-grid" aria-label="Redes sociais">
+        <a href="#" aria-label="YouTube Tracking Records">YouTube <span>Tracking Records</span></a>
+        <a href="#" aria-label="Instagram tracking.records">Instagram <span>@tracking.records</span></a>
+        <a href="#" aria-label="TikTok tracking.records">TikTok <span>@tracking.records</span></a>
+        <a href="#" aria-label="Twitter X tracking.records">Twitter/X <span>@tracking.records</span></a>
+      </div>
+    </footer>
+
+    <div class="site-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="merch-modal-title" data-merch-modal>
+      <div class="site-modal-panel">
+        <button class="modal-close" type="button" aria-label="Fechar popup" data-merch-modal-close>&times;</button>
+        <p class="eyebrow" data-modal-kicker>Tracking Records</p>
+        <h3 id="merch-modal-title">P&aacute;gina ainda indispon&iacute;vel</h3>
+        <p>Pedimos desculpa, mas a p&aacute;gina ainda n&atilde;o est&aacute; dispon&iacute;vel.</p>
+      </div>
+    </div>
+
+    <script src="artist-data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
