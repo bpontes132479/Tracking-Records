@@ -1,0 +1,107 @@
+window.trackingArtists = [
+  {
+    slug: "luna-vale",
+    name: "Luna Vale",
+    genre: "Pop / Alt-Pop",
+    bio: "Refrões luminosos, voz etérea e uma escrita íntima que abre espaço ao detalhe.",
+    asset: "assets/artist-luna-vale-photo.png",
+    story: [
+      "Luna Vale nasceu entre demos caseiras, melodias pop e uma vontade clara de transformar momentos íntimos em canções abertas ao mundo.",
+      "Na Tracking Records, encontrou espaço para desenvolver uma estética sensível, moderna e cinematográfica, cruzando alt-pop com produção eletrónica minimalista.",
+      "A sua trajetória é marcada por escrita emocional, presença visual delicada e uma relação forte com públicos que procuram música honesta e atmosférica.",
+    ],
+    products: [
+      {
+        title: "Luna Vale Hoodie",
+        type: "Hoodie",
+        price: "EUR 74",
+        description: "Hoodie suave com estética dreamy para noites de concerto.",
+        image: "assets/merch-luna-hoodie-v2.png",
+      },
+      {
+        title: "Dreamline T-shirt",
+        type: "T-shirt",
+        price: "EUR 34",
+        description: "T-shirt leve com assinatura visual delicada da Luna Vale.",
+        image: "assets/merch-luna-tshirt-v2.png",
+      },
+      {
+        title: "Luna Poster Set",
+        type: "Poster",
+        price: "EUR 20",
+        description: "Posters artísticos para decorar quartos, estúdios e moodboards.",
+        image: "assets/merch-luna-poster-set-v2.png",
+      },
+    ],
+  },
+  {
+    slug: "kairo",
+    name: "Kairo",
+    genre: "Hip-Hop / Trap",
+    bio: "Rimas precisas, energia crua e uma presença forte entre rua e estúdio.",
+    asset: "assets/artist-kairo-photo.png",
+    story: [
+      "Kairo entrou no universo da música através de cyphers locais, beats duros e uma escrita direta sobre ambição, pressão e identidade.",
+      "Com a Tracking Records, constrói um som que combina trap, hip-hop alternativo e uma estética visual marcada por contraste, movimento e atitude.",
+      "O seu percurso foca-se em transformar vivência em performance, criando faixas com força narrativa e presença de palco imediata.",
+    ],
+    products: [
+      {
+        title: "Kairo Core Hoodie",
+        type: "Hoodie",
+        price: "EUR 78",
+        description: "Hoodie escuro com energia urbana e presença de palco.",
+        image: "assets/merch-kairo-hoodie-v2.png",
+      },
+      {
+        title: "Street Verse Tee",
+        type: "T-shirt",
+        price: "EUR 36",
+        description: "T-shirt gráfica inspirada em versos, beats e rua.",
+        image: "assets/merch-kairo-tshirt-v2.png",
+      },
+      {
+        title: "Kairo Cap",
+        type: "Cap",
+        price: "EUR 28",
+        description: "Cap minimal para completar looks de rua e backstage.",
+        image: "assets/merch-kairo-cap-v2.png",
+      },
+    ],
+  },
+  {
+    slug: "nova-s",
+    name: "Nova S",
+    genre: "Techno / Club",
+    bio: "Texturas noturnas, ritmo minimal e uma visão que privilegia a pista.",
+    asset: "assets/artist-nova-s-photo.png",
+    story: [
+      "Nova S desenvolveu a sua linguagem em clubes pequenos, sessões longas e experiências sonoras focadas em repetição, tensão e libertação.",
+      "A sua assinatura junta techno minimal, texturas industriais e uma leitura visual muito gráfica, pensada para palco, luz e movimento.",
+      "Dentro da Tracking Records, representa a vertente mais noturna da editora, ligada à cultura clubbing e à construção de ambientes imersivos.",
+    ],
+    products: [
+      {
+        title: "Nova S Tech Hoodie",
+        type: "Hoodie",
+        price: "EUR 76",
+        description: "Hoodie clubwear com visual técnico para noites longas.",
+        image: "assets/merch-nova-hoodie-v2.png",
+      },
+      {
+        title: "Club Signal Tee",
+        type: "T-shirt",
+        price: "EUR 35",
+        description: "T-shirt minimal com energia de pista e sinal gráfico.",
+        image: "assets/merch-nova-tshirt-v2.png",
+      },
+      {
+        title: "Nova Vinyl Pack",
+        type: "Vinyl",
+        price: "EUR 32",
+        description: "Pack de vinyl para colecionadores de som noturno.",
+        image: "assets/merch-nova-vinyl-pack-v2.png",
+      },
+    ],
+  },
+];
